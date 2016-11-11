@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<!-- OPEN HEAD -->
+<head>
+  <title>Rascal Racer | Home</title>
+  <!-- Page title for browser -->
+  <meta name="viewport" content="width=device-width">
+  <!-- meta data -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- css ecternal stylesheet links -->
+  <link rel="stylesheet" href="css/desktop.css">
+  <!-- <link rel="stylesheet" href="css/tablet.css">-->
+  <link rel="stylesheet" href="css/smartphone.css">
+  <!-- JAVASCRIPT FOR LOGO -->
+  <script type="text/javascript">
+    var image_tracker = 't';
+
+    function change() {
+      var image = document.getElementById('mainLogo')
+      if (image_tracker == 'f') {
+        image.src = 'img/Harley-Davidson logo.png';
+        image_tracker = 't';
+      }
+      else {
+        image.src = 'img/Harley-Davidson-rascal logo.png';
+        image_tracker = 'f';
+      }
+    }
+  </script>
+  <!-- JAVASCRIPT FOR LOGO -->
+  <!-- google fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Shrikhand');
+  </style>
+  <!-- JAVASCRIPT FOR NAVBAR BUTTONS -->
+  <script type="text/javascript">
+    var a = new Image();
+    a.src = 'img/about button.png';
+    var b = new Image();
+    b.src = 'img/about button2.png';
+    var c = new Image();
+    c.src = 'img/about button3.png';
+  </script>
+  <script type="text/javascript">
+    var d = new Image();
+    d.src = 'img/about.png';
+    var e = new Image();
+    e.src = 'img/about2.png';
+    var f = new Image();
+    f.src = 'img/about3.png';
+  </script>
+  <script type="text/javascript">
+    var g = new Image();
+    g.src = 'img/contact button.png';
+    var h = new Image();
+    h.src = 'img/contact button2.png';
+    var i = new Image();
+    i.src = 'img/contact button3.png';
+  </script>
+  <!-- JAVASCRIPT FOR NAVBAR BUTTONS -->
+</head>
+<!-- CLOSE HEAD -->
+
+<!-- OPEN BODY -->
+<body>
+  <!--WRAP OPEN FOR HEADER AND BODY CONTENT-->
+  <div class="wrap">
+    <!-- .main-header CLASS OPEN -->
+    <header class="main-header">
+      <!-- .header-container CLASS OPEN -->
+      <div class="header-container"> <img class="arrow2" src="img/arrow2.png"> <img class="harleyDavidsonlogo" src="img/Harley-Davidson logo.png" id="mainLogo" onclick="change();"> <img class="arrow1 image" src="img/arroworange.png">
+        <!-- .main-nav CLASS CLOSE -->
+      </div>
+      <!-- .header-container CLASS CLOSE -->
+    </header>
+    <!-- .main-header CLASS CLOSE -->
+    <!-- .header2 CLASS OPEN -->
+    <div class="header-container2">
+      <h1 class="name">Rascal Racer</h1>
+      <!-- .main-nav CLASS OPEN -->
+      <ul class="main-nav">
+        <!-- .button-container CLASS OPEN -->
+        <div class="button-container" id="nav-buttons"> 
+   
+          <li>
+            <a href="#" onmouseover="document.images['s3d'].src='img/about button2.png';" onmouseout="document.images['s3d'].src='img/about button.png';" onmousedown="document.images['s3d'].src='img/about button3.png';" onmouseup="document.images['s3d'].src='img/about button2.png';" target="_blan"><img src="img/about button.png" name="s3d" height="" width="" alt="" border="0"></a>
+            </a>
+          </li>
+          <li>
+            <a href="#" onmouseover="document.images['s3a'].src='img/button2.png';" onmouseout="document.images['s3a'].src='img/button.png';" onmousedown="document.images['s3a'].src='img/button3.png';" onmouseup="document.images['s3a'].src='img/button2.png';" target="_blan"><img src="img/button.png" name="s3a" height="" width="" alt="" border="0"></a>
+            </a>
+          </li>
+          <li>
+            <a href="#" onmouseover="document.images['s3g'].src='img/contact button2.png';" onmouseout="document.images['s3g'].src='img/contact button.png';" onmousedown="document.images['s3g'].src='img/contact button3.png';" onmouseup="document.images['s3g'].src='img/contact button2.png';" target="_blan"><img src="img/contact button.png" name="s3g" height="" width="" alt="" border="0"></a>
+          </li>
+          <!-- .button-container CLASS CLOSE -->
+        </div>
+      </ul>
+    </div>
+    <!-- .header2 CLASS CLOSE -->
+    <!-- 1ST CONTENT AREA -->
+    <div class="page-container page-content1">
+      <h1>Welcome!</h1> <img src="img/Harley-Davidson logo.png" class="picsizing">
+      <p>Welcome to the official website for Craig Wright's Harley Davidson - Rascal Racer!!!</p>
+      <p>This page is aimed at pleasing all hi-end motorcycle loving enthusiasts, allowing you to all know where you can see craig's bike at trade shows.</p>
+      <p>Keep an eye out on where the bikes gonna be and show up and see it in the flesh.</p>
+    </div>
+    <!-- 1ST CONTENT AREA -->
+    <!-- 2ND CONTENT AREA -->
+    <!--/.primary-->
+    <div class="page-container page-content2">
+      <div class="col">
+        <h2>Gallery 1</h2> <img class="image-shadow" src="img/rascal 3.jpg" alt="Resort">
+        <p>25 photos in gallery 1.</p>
+      </div>
+      <!--/.primary-->
+      <div class="col">
+        <!--/.secondary-->
+        <h2>Gallery 2</h2> <img class="image-shadow" src="img/rascal 2.jpg" alt="Mountain Landscape">
+        <p>56 photos in gallery 2.</p>
+      </div>
+    </div>
+    <!--/.secondary-->
+    <!-- 2ND CONTENT AREA -->
+    <!-- 3RD CONTENT AREA -->
+    <div class="primary-content t-border1">
+      <div class="wildlife">
+        <h2>Check out the Motorcycle</h2>
+        <p> Craig Wright's Rascal Racer is an official Harley Davidson motorcycle. Available to be seen in the flesh at various motorcycle tradeshows around the world. <a href="http://www.harley-davidson.com/" target="_blank">Harley Davidson</a> is a legendary american motorcycle company. </p>
+      </div>
+      <!-- End .wildlife -->
+    </div>
+    <!-- End .primary-content -->
+    <!-- 3RD CONTENT AREA -->
+    <!-- 4TH CONTENT AREA -->
+    <div class="secondary-content t-border2 clearfix">
+      <div class="resorts"> <img class="image-shadow" src="img/rascal 3.jpg" alt="Resort">
+        <h3>Rascal Racer</h3>
+        <p>Craig Wright's Rascal Racer is an official Harley Davidson motorcycle. Available to be seen in the flesh at various motorcycle tradeshows around the world. <a href="http://www.harley-davidson.com/" target="_blank">Harley Davidson</a> is a legendary american motoprcycle company. </p>
+        <ul>
+          <li><a href="#hotels">Facebook</a></li>
+          <li><a href="#resorts">Youtube</a></li>
+          <li><a href="#lodging">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="tips"> <img class="image-shadow" src="img/rascal 2.jpg" alt="Mountain Landscape">
+        <h3>Craig Wright</h3>
+        <p> Craig Wright's Rascal Racer is an official Harley Davidson motorcycle. Available to be seen in the flesh at various motorcycle tradeshows around the world. <a href="http://www.harley-davidson.com/" target="_blank">Harley Davidson</a> is a legendary american motoprcycle company. </p>
+        <ol>
+          <li>Events & Shows</li>
+          <li>Film & tv hire</li>
+          <li>Modeling hire</li>
+        </ol>
+      </div>
+    </div>
+    <!-- 4TH CONTENT AREA -->
+  </div>
+  <!--WRAP CLOSE FOR HEADER AND BODY CONTENT-->
+  <!-- 3 COLUMN OPEN -->
+  <div class="columns clearfix">
+    <div class="secondary coltrinity">
+      <h2>Left Section</h2>
+      <p><strong>Motorcycle: </strong>Lorem ipsum dolor sit amet, omittam evertitur pertinacia vis ne, eirmod labitur et eum. Munere labitur has cu, ei nonumy nominavi platonem mel. Ut modus ceteros signiferumque sea, illum facilisis evertitur cu mei. Id has commune intellegam. Eu dicant ornatus recteque mea. Pro in posidonium reprimique.</p>
+      <p><strong>Motorcycle: </strong>Lorem ipsum dolor sit amet, omittam evertitur pertinacia vis ne, eirmod labitur et eum. Munere labitur has cu, ei nonumy nominavi platonem mel. Ut modus ceteros signiferumque sea, illum facilisis evertitur cu mei. Id has commune intellegam. Eu dicant ornatus recteque mea. Pro in posidonium reprimique.</p>
+    </div>
+    <div class="primary coltrinity">    
+      <h2>Lower Section</h2>
+      <figure>
+        <div class="image-disapear">
+        <img class="image-shadow" src="img/rascal 3.jpg" alt="Resort"></div>
+        <img src="img/Harley-Davidson logo.png" class="icon">
+        <figcaption>
+          <p>
+            <p><strong>Motorcycle: </strong>Lorem ipsum dolor sit amet, omittam evertitur pertinacia vis ne, eirmod labitur et eum. Munere labitur has cu, ei nonumy nominavi platonem mel.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <!--/.primary-->
+    <div class="tertiary coltrinity">
+      <h2>Right Section</h2>
+      <p><strong>Motorcycle: </strong>Lorem ipsum dolor sit amet, omittam evertitur pertinacia vis ne, eirmod labitur et eum. Munere labitur has cu, ei nonumy nominavi platonem mel. Ut modus ceteros signiferumque sea, illum facilisis evertitur cu mei. Id has commune intellegam. Eu dicant ornatus recteque mea. Pro in posidonium reprimique.</p>
+      <p><strong>Motorcycle: </strong>Lorem ipsum dolor sit amet, omittam evertitur pertinacia vis ne, eirmod labitur et eum. Munere labitur has cu, ei nonumy nominavi platonem mel. Ut modus ceteros signiferumque sea, illum facilisis evertitur cu mei. Id has commune intellegam. Eu dicant ornatus recteque mea. Pro in posidonium reprimique.</p>
+    </div>
+    <!--/.tertiary-->
+  </div>
+  <!-- 3 COLUMN CLOSE -->
+  <!--FOOTER OPEN-->
+  <footer class="main-footer">
+    <p>BETA Version <a href="#">0.3</a> | Designed by <a href="#">James Faux</a> 2016</p>
+  </footer>
+  <!--FOOTER CLOSE-->
+  <script src="beta.js"></script>
+</body>
+<!-- CLOSE BODY -->
+
+</html>
